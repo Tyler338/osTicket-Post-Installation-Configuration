@@ -108,10 +108,19 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/rh1fc92.png" width="80%" alt="Disk Sanitization Steps"/>
 <h2>Configure SLA</h2>
 
--
--
--
+- Toggle to the Admin panel
+- Toggle to "Manager" and click "SLA"
+- Click "Add New SLA Plan"
+- Here you can choose the appropriate grace period hours and schedule allowed to respond to Service Level Agreements (SLA Plans). SLA plans are set to provide a length of time for the help desk workers to close a ticket.
 
--
--
--
+
+<img src="https://i.imgur.com/G0cNTNu.png" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/POGmUmg.png" alt="Disk Sanitization Steps"/>
+
+<h2>Configure Help Topics</h2>
+
+- Toggle to the Admin panel
+- Select "Manage" and click "Help Topics"
+- Select "Add New Help Topic" and create your own Help Topic.
+-Help Topics will help streamline your end user's help desk experience to ensure proper assignment and prompt response to the ticket. Create as many Help Topics as needed. 
+
