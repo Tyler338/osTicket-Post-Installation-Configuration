@@ -7,7 +7,7 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
+
 
 
 
@@ -26,17 +26,21 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Roles
 - Configure Departments
 - Configure Teams
+- Allow anyone to create tickets
 - Configure Agents/Users
 - Configure SLA
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9FrG9KM.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-- Upon login, toggle to ADMIN panel
+<h2>Configure Roles</h2>
+
+
+- Upon login, toggle to Admin panel
 - Select "Agents" from top menu bar
 - Select "Roles" from lower menu bar
 - Select "Add New Role" to create as many Roles needed for the organization. The Roles are set up according to what access levels each group of members needs depending - upon their departments and abilities to assign or close tickets etc.
@@ -45,17 +49,69 @@ This tutorial outlines the post-install configuration of the open-source help de
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wSc78ot.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<h2> Configure Deparments</h2>
+
+- Toggle to Admin panel
+- Select "Agents" from the top menu bar
+- Select "Departments" from lower menu bar and click "Add New Department" From here, choose the appropriate settings that will apply to the different access levels for the newly created department. Since tickets are routed through Departments in the help desk, there are many settings that can be set for each Department.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zGuuw77.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<h2>Configure Teams</h2>
+
+- Toggle to the Admin panel
+- Toggle to "Agents"
+- Select "Teams" from lower menu bar and click to "Add New Team" From here, choose the appropriate members for the team and set the access levels that will apply. Configuring Teams will allow Agents from different Departments to be organized to handle a specific issue or user via a Help Topic or Ticket Filter, regardless of the parameters of the Agents' Department rules.
 </p>
 <br />
+
+<img src="https://i.imgur.com/KSJUyEG.png" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Allow anyone to create tickets</h2>
+
+- Toggle to the Admin panel
+- Toggle to "Settings" and then select "User Settings"
+- Click the "Registration Required" box to allow users to create tickets.
+- Click save changes
+
+
+
+
+<img src="https://i.imgur.com/e0SRYX2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/M5LfJIk.png"80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Configure Agents</h2>
+
+- Toggle to the Admin panel
+- Select "Agents" from the top menu bar and then select the second "Agents" icon that is located a bit lower to the left of the first one we clicked.
+- Select "Add New Agent" to add new workers and assign their Departments and Roles.
+- Fill out the information for the added agent by creating login credentials. You can also assign "Access" and "Permissions" here.
+- Agents with access to the help desk are responsible for responding to and resolving tickets. Assigning them to a primary department and role helps to ensure that tickets are properly organized and assigned to the most appropriate agent.
+
+
+
+<img src="https://i.imgur.com/ikQi1bB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<h2>Configure Users</h2>
+
+- Toggle to the Agent panel
+- Toggle to "Users" and then click "Add User"
+- Fill out information for user and click "Add User" to finalize.
+
+<img src="https://i.imgur.com/dqtso6n.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rh1fc92.png" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Configure SLA</h2>
+
+-
+-
+-
+
+-
+-
+-
